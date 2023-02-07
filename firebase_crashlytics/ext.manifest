@@ -3,7 +3,7 @@ name: "FirebaseCrashlytics"
 platforms:
   android:
     context:
-        aaptExtraPackages: ['com.google.android.gms.common']
+        aaptExtraPackages: ['com.google.android.gms.common', 'com.google.firebase.crashlytics']
 
   arm64-android:
     context:
